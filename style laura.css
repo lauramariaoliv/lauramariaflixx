@@ -1,0 +1,59 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Gravitas+One&family=Honk&family=Lemon&display=swap" rel="stylesheet');
+
+
+* { 
+    font-family:georgia;
+    box-sizing: border-box;
+    text-decoration: none;
+} 
+
+body { 
+    background: rgb(8,7,36);
+    background: linear-gradient(#e66465, #9198e5);
+
+} 
+
+.container h1 { 
+    color: white;
+    text-align: center;
+} 
+
+.filmes { 
+    background-color: #ffb5b5;
+    width: 35%;
+    height: 430px;
+    border-radius: 15px;
+} 
+
+.filmes p { 
+    font-weight: 600;
+    text-align: center;
+} 
+
+
+
+.wrapperFIlmes { 
+display: flex;
+flex-direction: column;
+margin-top: 30px;
+gap: 300px;
+align-items: center;
+} 
+
+.quad1, .quad2 { 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+} 
+
+.youtubevideo { 
+    width: 350px;
+    align-items: center;
+    margin-left: 60px;
+    border-radius: 10px;
+} 
+
+.quad2 {
+    margin-top: 100px;
+}
